@@ -38,7 +38,7 @@ a) Card (New) - visualization of average values (Page 1: Population, GDP, HDI; P
 b) Stacked Column Chart - visualization of avarage comparison for: 
 (Page 1: Tourism Revenue, International Visitors; Page 2: Number of Airports)
 
-c) Stacked Bar Chart - comparison of average Crime Rate for each country (Page 2). To show it in % I had to create New Metric named % Crime Rate. I used DAX expression below:
+c) Stacked Bar Chart - comparison of average Crime Rate for each country (Page 2). To show it in % I had to create New Measure named "% Crime Rate". I used DAX expression below:
         
         % Crime Rate = AVERAGE(country_comparison_large_dataset[Crime Rate (per 100,000)]) / 100000
 
